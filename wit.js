@@ -6,7 +6,7 @@ var request_wit = function(user_text) {
     var options = {
         host: 'api.wit.ai',
         path: '/message?q=' + encodeURIComponent(user_text),
-        headers: {'Authorization': 'Bearer YHXR7E7TSZHSB3MCSWDL6SBLDKGATJF6'}
+        headers: {'Authorization': 'Bearer I5DJTOZOO3CPBFCFPZU5KUMCK5T4LI5G'}
     };
 
     https.request(options, function(res) {
